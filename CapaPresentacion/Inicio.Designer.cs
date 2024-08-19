@@ -78,8 +78,8 @@ namespace CapaPresentacion
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnCerrarSesion = new FontAwesome.Sharp.IconButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menu.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox2)).BeginInit();
@@ -89,7 +89,7 @@ namespace CapaPresentacion
             // 
             // menu
             // 
-            this.menu.BackColor = System.Drawing.Color.ForestGreen;
+            this.menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuUsuarios,
             this.menuMantenedor,
@@ -109,11 +109,11 @@ namespace CapaPresentacion
             // menuUsuarios
             // 
             this.menuUsuarios.AutoSize = false;
-            this.menuUsuarios.BackColor = System.Drawing.Color.ForestGreen;
+            this.menuUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.menuUsuarios.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuUsuarios.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.menuUsuarios.IconChar = FontAwesome.Sharp.IconChar.UserCog;
-            this.menuUsuarios.IconColor = System.Drawing.Color.Black;
+            this.menuUsuarios.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(180)))), ((int)(((byte)(140)))));
             this.menuUsuarios.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuUsuarios.IconSize = 50;
             this.menuUsuarios.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -127,7 +127,7 @@ namespace CapaPresentacion
             // menuMantenedor
             // 
             this.menuMantenedor.AutoSize = false;
-            this.menuMantenedor.BackColor = System.Drawing.Color.ForestGreen;
+            this.menuMantenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.menuMantenedor.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.subMenuCategoria,
             this.subMenuProducto,
@@ -139,7 +139,7 @@ namespace CapaPresentacion
             this.menuMantenedor.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuMantenedor.ForeColor = System.Drawing.Color.White;
             this.menuMantenedor.IconChar = FontAwesome.Sharp.IconChar.Tools;
-            this.menuMantenedor.IconColor = System.Drawing.Color.Black;
+            this.menuMantenedor.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(180)))), ((int)(((byte)(140)))));
             this.menuMantenedor.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuMantenedor.IconSize = 50;
             this.menuMantenedor.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -151,7 +151,7 @@ namespace CapaPresentacion
             // 
             // subMenuCategoria
             // 
-            this.subMenuCategoria.BackColor = System.Drawing.Color.ForestGreen;
+            this.subMenuCategoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.subMenuCategoria.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.subMenuCategoria.IconChar = FontAwesome.Sharp.IconChar.None;
             this.subMenuCategoria.IconColor = System.Drawing.Color.Black;
@@ -163,7 +163,7 @@ namespace CapaPresentacion
             // 
             // subMenuProducto
             // 
-            this.subMenuProducto.BackColor = System.Drawing.Color.ForestGreen;
+            this.subMenuProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.subMenuProducto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.subMenuProducto.IconChar = FontAwesome.Sharp.IconChar.None;
             this.subMenuProducto.IconColor = System.Drawing.Color.Black;
@@ -175,7 +175,7 @@ namespace CapaPresentacion
             // 
             // subMenuNegocio
             // 
-            this.subMenuNegocio.BackColor = System.Drawing.Color.ForestGreen;
+            this.subMenuNegocio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.subMenuNegocio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.subMenuNegocio.Name = "subMenuNegocio";
             this.subMenuNegocio.Size = new System.Drawing.Size(259, 26);
@@ -184,7 +184,7 @@ namespace CapaPresentacion
             // 
             // cotizacionDolarToolStripMenuItem
             // 
-            this.cotizacionDolarToolStripMenuItem.BackColor = System.Drawing.Color.ForestGreen;
+            this.cotizacionDolarToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.cotizacionDolarToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.cotizacionDolarToolStripMenuItem.Name = "cotizacionDolarToolStripMenuItem";
             this.cotizacionDolarToolStripMenuItem.Size = new System.Drawing.Size(259, 26);
@@ -193,7 +193,7 @@ namespace CapaPresentacion
             // 
             // subMenuFormaPago
             // 
-            this.subMenuFormaPago.BackColor = System.Drawing.Color.ForestGreen;
+            this.subMenuFormaPago.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.subMenuFormaPago.ForeColor = System.Drawing.Color.White;
             this.subMenuFormaPago.Name = "subMenuFormaPago";
             this.subMenuFormaPago.Size = new System.Drawing.Size(259, 26);
@@ -202,7 +202,7 @@ namespace CapaPresentacion
             // 
             // subMenuStock
             // 
-            this.subMenuStock.BackColor = System.Drawing.Color.ForestGreen;
+            this.subMenuStock.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.subMenuStock.ForeColor = System.Drawing.Color.White;
             this.subMenuStock.Name = "subMenuStock";
             this.subMenuStock.Size = new System.Drawing.Size(259, 26);
@@ -211,7 +211,7 @@ namespace CapaPresentacion
             // 
             // subMenuTraspasoMercaderia
             // 
-            this.subMenuTraspasoMercaderia.BackColor = System.Drawing.Color.ForestGreen;
+            this.subMenuTraspasoMercaderia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.subMenuTraspasoMercaderia.ForeColor = System.Drawing.Color.White;
             this.subMenuTraspasoMercaderia.Name = "subMenuTraspasoMercaderia";
             this.subMenuTraspasoMercaderia.Size = new System.Drawing.Size(259, 26);
@@ -221,13 +221,14 @@ namespace CapaPresentacion
             // menuVentas
             // 
             this.menuVentas.AutoSize = false;
+            this.menuVentas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.menuVentas.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.subMenuRegistrarVenta,
             this.subMenuDetalleVenta});
             this.menuVentas.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuVentas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.menuVentas.IconChar = FontAwesome.Sharp.IconChar.MoneyCheckAlt;
-            this.menuVentas.IconColor = System.Drawing.Color.Black;
+            this.menuVentas.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(180)))), ((int)(((byte)(140)))));
             this.menuVentas.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuVentas.IconSize = 50;
             this.menuVentas.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -239,7 +240,7 @@ namespace CapaPresentacion
             // 
             // subMenuRegistrarVenta
             // 
-            this.subMenuRegistrarVenta.BackColor = System.Drawing.Color.ForestGreen;
+            this.subMenuRegistrarVenta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.subMenuRegistrarVenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.subMenuRegistrarVenta.IconChar = FontAwesome.Sharp.IconChar.None;
             this.subMenuRegistrarVenta.IconColor = System.Drawing.Color.Black;
@@ -251,7 +252,7 @@ namespace CapaPresentacion
             // 
             // subMenuDetalleVenta
             // 
-            this.subMenuDetalleVenta.BackColor = System.Drawing.Color.ForestGreen;
+            this.subMenuDetalleVenta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.subMenuDetalleVenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.subMenuDetalleVenta.IconChar = FontAwesome.Sharp.IconChar.None;
             this.subMenuDetalleVenta.IconColor = System.Drawing.Color.Black;
@@ -264,13 +265,14 @@ namespace CapaPresentacion
             // menuCompras
             // 
             this.menuCompras.AutoSize = false;
+            this.menuCompras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.menuCompras.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.subMenuRegistrarCompra,
             this.subMenuDetalleCompra});
             this.menuCompras.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuCompras.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.menuCompras.IconChar = FontAwesome.Sharp.IconChar.Dolly;
-            this.menuCompras.IconColor = System.Drawing.Color.Black;
+            this.menuCompras.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(180)))), ((int)(((byte)(140)))));
             this.menuCompras.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuCompras.IconSize = 50;
             this.menuCompras.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -282,7 +284,7 @@ namespace CapaPresentacion
             // 
             // subMenuRegistrarCompra
             // 
-            this.subMenuRegistrarCompra.BackColor = System.Drawing.Color.ForestGreen;
+            this.subMenuRegistrarCompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.subMenuRegistrarCompra.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.subMenuRegistrarCompra.IconChar = FontAwesome.Sharp.IconChar.None;
             this.subMenuRegistrarCompra.IconColor = System.Drawing.Color.Black;
@@ -294,7 +296,7 @@ namespace CapaPresentacion
             // 
             // subMenuDetalleCompra
             // 
-            this.subMenuDetalleCompra.BackColor = System.Drawing.Color.ForestGreen;
+            this.subMenuDetalleCompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.subMenuDetalleCompra.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.subMenuDetalleCompra.IconChar = FontAwesome.Sharp.IconChar.None;
             this.subMenuDetalleCompra.IconColor = System.Drawing.Color.Black;
@@ -310,7 +312,7 @@ namespace CapaPresentacion
             this.menuClientes.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuClientes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.menuClientes.IconChar = FontAwesome.Sharp.IconChar.Users;
-            this.menuClientes.IconColor = System.Drawing.Color.Black;
+            this.menuClientes.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(180)))), ((int)(((byte)(140)))));
             this.menuClientes.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuClientes.IconSize = 50;
             this.menuClientes.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -327,7 +329,7 @@ namespace CapaPresentacion
             this.menuProveedores.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuProveedores.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.menuProveedores.IconChar = FontAwesome.Sharp.IconChar.AddressCard;
-            this.menuProveedores.IconColor = System.Drawing.Color.Black;
+            this.menuProveedores.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(180)))), ((int)(((byte)(140)))));
             this.menuProveedores.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuProveedores.IconSize = 50;
             this.menuProveedores.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -341,13 +343,14 @@ namespace CapaPresentacion
             // menuReportes
             // 
             this.menuReportes.AutoSize = false;
+            this.menuReportes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.menuReportes.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.subMenuReporteCompras,
             this.subMenuReporteVentas});
             this.menuReportes.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuReportes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.menuReportes.IconChar = FontAwesome.Sharp.IconChar.ChartColumn;
-            this.menuReportes.IconColor = System.Drawing.Color.Black;
+            this.menuReportes.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(180)))), ((int)(((byte)(140)))));
             this.menuReportes.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuReportes.IconSize = 50;
             this.menuReportes.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -359,7 +362,7 @@ namespace CapaPresentacion
             // 
             // subMenuReporteCompras
             // 
-            this.subMenuReporteCompras.BackColor = System.Drawing.Color.ForestGreen;
+            this.subMenuReporteCompras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.subMenuReporteCompras.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.subMenuReporteCompras.Name = "subMenuReporteCompras";
             this.subMenuReporteCompras.Size = new System.Drawing.Size(211, 26);
@@ -368,7 +371,7 @@ namespace CapaPresentacion
             // 
             // subMenuReporteVentas
             // 
-            this.subMenuReporteVentas.BackColor = System.Drawing.Color.ForestGreen;
+            this.subMenuReporteVentas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.subMenuReporteVentas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.subMenuReporteVentas.Name = "subMenuReporteVentas";
             this.subMenuReporteVentas.Size = new System.Drawing.Size(211, 26);
@@ -378,6 +381,7 @@ namespace CapaPresentacion
             // menuCajaRegistradora
             // 
             this.menuCajaRegistradora.AutoSize = false;
+            this.menuCajaRegistradora.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.menuCajaRegistradora.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.subMenuAperturaCaja,
             this.subMenuCajaDiaria,
@@ -386,7 +390,7 @@ namespace CapaPresentacion
             this.menuCajaRegistradora.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuCajaRegistradora.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.menuCajaRegistradora.IconChar = FontAwesome.Sharp.IconChar.CashRegister;
-            this.menuCajaRegistradora.IconColor = System.Drawing.Color.Black;
+            this.menuCajaRegistradora.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(180)))), ((int)(((byte)(140)))));
             this.menuCajaRegistradora.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuCajaRegistradora.IconSize = 50;
             this.menuCajaRegistradora.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -398,7 +402,7 @@ namespace CapaPresentacion
             // 
             // subMenuAperturaCaja
             // 
-            this.subMenuAperturaCaja.BackColor = System.Drawing.Color.ForestGreen;
+            this.subMenuAperturaCaja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.subMenuAperturaCaja.ForeColor = System.Drawing.Color.White;
             this.subMenuAperturaCaja.Name = "subMenuAperturaCaja";
             this.subMenuAperturaCaja.Size = new System.Drawing.Size(207, 26);
@@ -407,7 +411,7 @@ namespace CapaPresentacion
             // 
             // subMenuCajaDiaria
             // 
-            this.subMenuCajaDiaria.BackColor = System.Drawing.Color.ForestGreen;
+            this.subMenuCajaDiaria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.subMenuCajaDiaria.ForeColor = System.Drawing.Color.White;
             this.subMenuCajaDiaria.Name = "subMenuCajaDiaria";
             this.subMenuCajaDiaria.Size = new System.Drawing.Size(207, 26);
@@ -416,7 +420,7 @@ namespace CapaPresentacion
             // 
             // subMenuConsultaCaja
             // 
-            this.subMenuConsultaCaja.BackColor = System.Drawing.Color.ForestGreen;
+            this.subMenuConsultaCaja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.subMenuConsultaCaja.ForeColor = System.Drawing.Color.White;
             this.subMenuConsultaCaja.Name = "subMenuConsultaCaja";
             this.subMenuConsultaCaja.Size = new System.Drawing.Size(207, 26);
@@ -425,7 +429,7 @@ namespace CapaPresentacion
             // 
             // subMenuConceptos
             // 
-            this.subMenuConceptos.BackColor = System.Drawing.Color.ForestGreen;
+            this.subMenuConceptos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.subMenuConceptos.ForeColor = System.Drawing.Color.White;
             this.subMenuConceptos.Name = "subMenuConceptos";
             this.subMenuConceptos.Size = new System.Drawing.Size(207, 26);
@@ -435,11 +439,11 @@ namespace CapaPresentacion
             // menuRMA
             // 
             this.menuRMA.AutoSize = false;
-            this.menuRMA.BackColor = System.Drawing.Color.ForestGreen;
+            this.menuRMA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.menuRMA.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuRMA.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.menuRMA.IconChar = FontAwesome.Sharp.IconChar.UserCog;
-            this.menuRMA.IconColor = System.Drawing.Color.Black;
+            this.menuRMA.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(180)))), ((int)(((byte)(140)))));
             this.menuRMA.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuRMA.IconSize = 50;
             this.menuRMA.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -453,13 +457,13 @@ namespace CapaPresentacion
             // menuConsultas
             // 
             this.menuConsultas.AutoSize = false;
-            this.menuConsultas.BackColor = System.Drawing.Color.ForestGreen;
+            this.menuConsultas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.menuConsultas.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuConsultaStock});
             this.menuConsultas.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuConsultas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.menuConsultas.IconChar = FontAwesome.Sharp.IconChar.UserCog;
-            this.menuConsultas.IconColor = System.Drawing.Color.Black;
+            this.menuConsultas.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(180)))), ((int)(((byte)(140)))));
             this.menuConsultas.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menuConsultas.IconSize = 50;
             this.menuConsultas.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
@@ -484,7 +488,7 @@ namespace CapaPresentacion
             // menuTitulo
             // 
             this.menuTitulo.AutoSize = false;
-            this.menuTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.menuTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(46)))), ((int)(((byte)(37)))));
             this.menuTitulo.Location = new System.Drawing.Point(0, 0);
             this.menuTitulo.Name = "menuTitulo";
             this.menuTitulo.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -495,14 +499,14 @@ namespace CapaPresentacion
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(46)))), ((int)(((byte)(37)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.ForestGreen;
-            this.label1.Location = new System.Drawing.Point(145, 82);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(272, 84);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(270, 31);
+            this.label1.Size = new System.Drawing.Size(359, 31);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Gestion de Negocio";
+            this.label1.Text = "Sistema de Administracion";
             // 
             // contenedor
             // 
@@ -516,7 +520,7 @@ namespace CapaPresentacion
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.ForestGreen;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(12, 9);
@@ -528,7 +532,7 @@ namespace CapaPresentacion
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
-            this.lblUsuario.BackColor = System.Drawing.Color.ForestGreen;
+            this.lblUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.lblUsuario.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsuario.ForeColor = System.Drawing.Color.White;
             this.lblUsuario.Location = new System.Drawing.Point(95, 9);
@@ -541,7 +545,7 @@ namespace CapaPresentacion
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.Color.ForestGreen;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.panel1.Controls.Add(this.iconPictureBox2);
             this.panel1.Controls.Add(this.iconPictureBox1);
             this.panel1.Controls.Add(this.lblSucursal);
@@ -563,7 +567,7 @@ namespace CapaPresentacion
             // iconPictureBox2
             // 
             this.iconPictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconPictureBox2.BackColor = System.Drawing.Color.ForestGreen;
+            this.iconPictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.iconPictureBox2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.iconPictureBox2.IconChar = FontAwesome.Sharp.IconChar.AnglesDown;
             this.iconPictureBox2.IconColor = System.Drawing.Color.WhiteSmoke;
@@ -579,7 +583,7 @@ namespace CapaPresentacion
             // iconPictureBox1
             // 
             this.iconPictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconPictureBox1.BackColor = System.Drawing.Color.ForestGreen;
+            this.iconPictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.X;
             this.iconPictureBox1.IconColor = System.Drawing.Color.White;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -595,7 +599,7 @@ namespace CapaPresentacion
             // 
             this.lblSucursal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblSucursal.AutoSize = true;
-            this.lblSucursal.BackColor = System.Drawing.Color.ForestGreen;
+            this.lblSucursal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.lblSucursal.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSucursal.ForeColor = System.Drawing.Color.White;
             this.lblSucursal.Location = new System.Drawing.Point(1224, 9);
@@ -608,7 +612,7 @@ namespace CapaPresentacion
             // 
             this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.ForestGreen;
+            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.label9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(1155, 9);
@@ -621,7 +625,7 @@ namespace CapaPresentacion
             // 
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.ForestGreen;
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.label7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(1137, 9);
@@ -633,7 +637,7 @@ namespace CapaPresentacion
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.ForestGreen;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(492, 9);
@@ -645,7 +649,7 @@ namespace CapaPresentacion
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.ForestGreen;
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(319, 9);
@@ -657,7 +661,7 @@ namespace CapaPresentacion
             // lblRol
             // 
             this.lblRol.AutoSize = true;
-            this.lblRol.BackColor = System.Drawing.Color.ForestGreen;
+            this.lblRol.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.lblRol.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRol.ForeColor = System.Drawing.Color.White;
             this.lblRol.Location = new System.Drawing.Point(548, 9);
@@ -669,7 +673,7 @@ namespace CapaPresentacion
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.ForestGreen;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(510, 9);
@@ -681,7 +685,7 @@ namespace CapaPresentacion
             // lblDocumento
             // 
             this.lblDocumento.AutoSize = true;
-            this.lblDocumento.BackColor = System.Drawing.Color.ForestGreen;
+            this.lblDocumento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.lblDocumento.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDocumento.ForeColor = System.Drawing.Color.White;
             this.lblDocumento.Location = new System.Drawing.Point(373, 9);
@@ -693,7 +697,7 @@ namespace CapaPresentacion
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.ForestGreen;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(331, 9);
@@ -722,26 +726,15 @@ namespace CapaPresentacion
             this.panel3.Size = new System.Drawing.Size(1366, 2);
             this.panel3.TabIndex = 17;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 44);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(139, 116);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 14;
-            this.pictureBox1.TabStop = false;
-            // 
             // btnCerrarSesion
             // 
             this.btnCerrarSesion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCerrarSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.btnCerrarSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(46)))), ((int)(((byte)(37)))));
             this.btnCerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrarSesion.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnCerrarSesion.ForeColor = System.Drawing.Color.ForestGreen;
+            this.btnCerrarSesion.ForeColor = System.Drawing.Color.White;
             this.btnCerrarSesion.IconChar = FontAwesome.Sharp.IconChar.SignOutAlt;
-            this.btnCerrarSesion.IconColor = System.Drawing.Color.White;
+            this.btnCerrarSesion.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(180)))), ((int)(((byte)(140)))));
             this.btnCerrarSesion.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnCerrarSesion.IconSize = 28;
             this.btnCerrarSesion.Location = new System.Drawing.Point(1203, 63);
@@ -753,16 +746,27 @@ namespace CapaPresentacion
             this.btnCerrarSesion.UseVisualStyleBackColor = false;
             this.btnCerrarSesion.Click += new System.EventHandler(this.iconButton1_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 44);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(238, 116);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1366, 745);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnCerrarSesion);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.contenedor);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menu);
@@ -809,7 +813,6 @@ namespace CapaPresentacion
         private FontAwesome.Sharp.IconMenuItem subMenuDetalleVenta;
         private FontAwesome.Sharp.IconMenuItem subMenuRegistrarCompra;
         private FontAwesome.Sharp.IconMenuItem subMenuDetalleCompra;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
@@ -839,6 +842,7 @@ namespace CapaPresentacion
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox2;
         private System.Windows.Forms.ToolStripMenuItem subMenuConceptos;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

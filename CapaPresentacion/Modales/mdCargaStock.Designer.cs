@@ -166,7 +166,7 @@ namespace CapaPresentacion.Modales
             // iconPictureBox1
             // 
             this.iconPictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconPictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(212)))), ((int)(((byte)(216)))));
+            this.iconPictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.X;
             this.iconPictureBox1.IconColor = System.Drawing.Color.White;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -180,7 +180,7 @@ namespace CapaPresentacion.Modales
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(212)))), ((int)(((byte)(216)))));
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
@@ -198,7 +198,7 @@ namespace CapaPresentacion.Modales
             this.btnLimpiar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpiar.ForeColor = System.Drawing.Color.White;
             this.btnLimpiar.IconChar = FontAwesome.Sharp.IconChar.Broom;
-            this.btnLimpiar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(83)))), ((int)(((byte)(150)))));
+            this.btnLimpiar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.btnLimpiar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLimpiar.IconSize = 28;
             this.btnLimpiar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -220,7 +220,7 @@ namespace CapaPresentacion.Modales
             this.btnBuscar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscar.ForeColor = System.Drawing.Color.White;
             this.btnBuscar.IconChar = FontAwesome.Sharp.IconChar.MagnifyingGlass;
-            this.btnBuscar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(83)))), ((int)(((byte)(150)))));
+            this.btnBuscar.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.btnBuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnBuscar.IconSize = 28;
             this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -233,7 +233,7 @@ namespace CapaPresentacion.Modales
             // 
             // txtBusqueda
             // 
-            this.txtBusqueda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(83)))), ((int)(((byte)(150)))));
+            this.txtBusqueda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.txtBusqueda.ForeColor = System.Drawing.Color.White;
             this.txtBusqueda.Location = new System.Drawing.Point(278, 93);
             this.txtBusqueda.Name = "txtBusqueda";
@@ -243,7 +243,7 @@ namespace CapaPresentacion.Modales
             // 
             // cboBusqueda
             // 
-            this.cboBusqueda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(83)))), ((int)(((byte)(150)))));
+            this.cboBusqueda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(91)))), ((int)(((byte)(59)))));
             this.cboBusqueda.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboBusqueda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboBusqueda.ForeColor = System.Drawing.Color.White;
@@ -258,7 +258,7 @@ namespace CapaPresentacion.Modales
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Silver;
             this.label12.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(83)))), ((int)(((byte)(150)))));
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(180)))), ((int)(((byte)(140)))));
             this.label12.Location = new System.Drawing.Point(13, 92);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(78, 17);
@@ -270,7 +270,7 @@ namespace CapaPresentacion.Modales
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Silver;
             this.label11.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(83)))), ((int)(((byte)(150)))));
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(180)))), ((int)(((byte)(140)))));
             this.label11.Location = new System.Drawing.Point(10, 45);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(265, 32);
@@ -279,16 +279,16 @@ namespace CapaPresentacion.Modales
             // 
             // btnActualizarStock
             // 
-            this.btnActualizarStock.BackColor = System.Drawing.Color.White;
+            this.btnActualizarStock.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(46)))), ((int)(((byte)(37)))));
             this.btnActualizarStock.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnActualizarStock.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnActualizarStock.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.btnActualizarStock.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(216)))), ((int)(((byte)(212)))));
             this.btnActualizarStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnActualizarStock.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActualizarStock.ForeColor = System.Drawing.Color.ForestGreen;
+            this.btnActualizarStock.ForeColor = System.Drawing.Color.White;
             this.btnActualizarStock.IconChar = FontAwesome.Sharp.IconChar.Sync;
-            this.btnActualizarStock.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(83)))), ((int)(((byte)(150)))));
+            this.btnActualizarStock.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(180)))), ((int)(((byte)(140)))));
             this.btnActualizarStock.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnActualizarStock.IconSize = 28;
             this.btnActualizarStock.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -302,16 +302,16 @@ namespace CapaPresentacion.Modales
             // 
             // btnTraspasarStock
             // 
-            this.btnTraspasarStock.BackColor = System.Drawing.Color.White;
+            this.btnTraspasarStock.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(46)))), ((int)(((byte)(37)))));
             this.btnTraspasarStock.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTraspasarStock.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnTraspasarStock.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.btnTraspasarStock.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(216)))), ((int)(((byte)(212)))));
             this.btnTraspasarStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTraspasarStock.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTraspasarStock.ForeColor = System.Drawing.Color.ForestGreen;
+            this.btnTraspasarStock.ForeColor = System.Drawing.Color.White;
             this.btnTraspasarStock.IconChar = FontAwesome.Sharp.IconChar.ArrowRightArrowLeft;
-            this.btnTraspasarStock.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(83)))), ((int)(((byte)(150)))));
+            this.btnTraspasarStock.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(180)))), ((int)(((byte)(140)))));
             this.btnTraspasarStock.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnTraspasarStock.IconSize = 28;
             this.btnTraspasarStock.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
